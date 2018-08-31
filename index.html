@@ -5,14 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  
    <!-- script -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <!-- style -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+  
     <link href="css/style.css" rel="stylesheet" type="text/css">
   
 </head>
@@ -31,8 +30,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active animated swing"><a href="#">Home</a></li>
-        <li><a href="#intro">about</a></li>
-        <li><a href="#portfolio">portofolio</a></li>
+        <li class="animated flash"><a href="#intro">about</a></li>
+        <li class="animated swing"><a href="#portfolio">portofolio</a></li>
         <li class=" animated swing"><a href="#contact">contact</a></li>
       </ul>
     
@@ -56,33 +55,33 @@
 <!-- skills -->
 <div class="row">
       <div class="eight col">
-        <h3 class="one animated flash">Our Skills</h3>
+        <h3 class="one animated flash">MY Skills</h3>
         <div class="progressBar">
-          <h4>HTML5</h4>
+          <h4 class="animated swing">HTML5</h4>
           <div class="progressBarContainer">
             <div class="progressBarValue value-90 animated rotateIn"></div>
           </div>
         </div>
         <div class="progressBar">
-          <h4>CSS3</h4>
+          <h4 class="animated swing">CSS3</h4>
           <div class="progressBarContainer">
             <div class="progressBarValue value-80 animated bounceInLeft"></div>
           </div>
         </div>
         <div class="progressBar">
-          <h4>Js</h4>
+          <h4 class="animated swing">Js</h4>
           <div class="progressBarContainer">
             <div class="progressBarValue value-30 animated rotateIn"></div>
           </div>
         </div>
         <div class="progressBar">
-          <h4>WordPress</h4>
+          <h4 class="animated flash">WordPress</h4>
           <div class="progressBarContainer">
             <div class="progressBarValue value-70 animated rotateIn"></div>
           </div>
         </div>
     <div class="progressBar">
-          <h4>Jquery</h4>
+          <h4 class="animated rotateIn">Jquery</h4>
           <div class="progressBarContainer">
             <div class="progressBarValue value-30 animated rotateIn"></div>
           </div>
@@ -90,10 +89,13 @@
         
         
     </div>
-    </div>
-    
-    
+    </div>      
 <!-- end-skills -->
+
+
+
+
+<!-- script -->
 
 <script>
 var TxtType = function(el, toRotate, period) {

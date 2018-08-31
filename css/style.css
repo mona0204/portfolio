@@ -1,7 +1,13 @@
+html,body{
+    height: 100%;
+}
+
 
 body{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
+  
 }
 
 h1{
@@ -24,7 +30,7 @@ h1{
  .navbar-toggle .icon-bar+.icon-bar{
       display: block;
     width: 22px;
-    height: 2px;
+    
     border-radius: 1px;
     background-color: black;
 }
@@ -118,7 +124,7 @@ body {
 .progressBarContainer {
 	width: 50%;
 	height: 8px;
-	background: #E1E1E1;
+	background: #52efd7;
 	overflow: hidden;
      margin-left: 25px;
 }
@@ -175,26 +181,19 @@ h3{
     max-width: 1000px;
     float: left;
 }
-/* Work Section */
-/* Work end */
 
-/* contac*/
-.con{
-    text-align: center;
-    font-size: 30px;
-}
-#contactContainer{
-  
-  border-top:2px solid black;
-  color: white; 
-  text-align: center;
-  padding: 60px;
-  width:100%;
-  min-height: 450px;
-  background: #000 url("https://charliehoehn.com/wp-content/uploads/2012/12/1305828451-floor-minimalistic-dark-pattern-wood-patterns-wallpaper1.jpg") center center;
-  background-size: cover;
-}
 
+
+
+
+/* media Section
+--------------------------------*/
+@media (max-width: 767px) {
+    body{
+       
+        overflow-x: hidden;
+    }
+}
 
 @media (max-width: 767px) {
     h2{
